@@ -25,3 +25,13 @@ function showTime(){
     setInterval("showTime()", 1000);
 }
 showTime();
+
+function changeColor(){
+    document.getElementById("MyClockDisplay").style.color = "#07eafa";
+}
+function changeColor2(){
+    document.getElementById("MyClockDisplay").style.color = "#ff0000";
+}
+function changeColor3(){
+    document.getElementById("MyClockDisplay").style.color = "#024704";
+}
